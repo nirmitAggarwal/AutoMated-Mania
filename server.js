@@ -10,7 +10,7 @@ const startSession = async () => {
   const sessionName = `${word} ${sessionIndex}`;
   try {
     const response = await axios.post(
-      `https://your_api_url_here/api/start/${slackId}`,
+      `https://hackhour.hackclub.com/api/start/${slackId}`,
       { work: sessionName },
       {
         headers: {
